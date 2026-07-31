@@ -1,1 +1,1 @@
-Enlighten[[:space:]]Them filter=lfs diff=lfs merge=lfs -text
+Enlighten[[:space:]]Them/** filter=lfs diff=lfs merge=lfs -text
