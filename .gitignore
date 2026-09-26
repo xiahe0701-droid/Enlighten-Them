@@ -1,0 +1,25 @@
+# Unity generated directories (may occur below a project subdirectory)
+[Ll]ibrary/
+[Ll]ogs/
+[Tt]emp/
+[Oo]bj/
+[Uu]ser[Ss]ettings/
+.vs/
+
+# IDE/build generated files
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# OS metadata
+.DS_Store
+Thumbs.db

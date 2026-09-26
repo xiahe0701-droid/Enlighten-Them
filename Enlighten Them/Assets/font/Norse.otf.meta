@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:eade27afc206c1fda3c7ce8124d18a9c209cb09de5c487f74af0a4e901aab2f1
-size 470
+fileFormatVersion: 2
+guid: b4858c74a053afe438f47ce80f7e7707
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Norse
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

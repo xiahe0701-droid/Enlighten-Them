@@ -1,3 +1,35 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:975c5dc23a00910b897ccf3455c628820407cada1e78c8ff16802fbdabac35b5
-size 560
+using System;
+using UnityEngine;
+
+public enum PuzzleDifficulty
+{
+    Easy,
+    Normal,
+    Hard
+}
+
+public interface IRepairPuzzle
+{
+    bool IsOpen { get; }
+
+    void Open(
+        PuzzleDifficulty difficulty,
+        Action onCompleted
+    );
+
+    void Close();
+}
+
+public abstract class RepairPuzzleBase :
+    MonoBehaviour,
+    IRepairPuzzle
+{
+    public abstract bool IsOpen { get; }
+
+    public abstract void Open(
+        PuzzleDifficulty difficulty,
+        Action onCompleted
+    );
+
+    public abstract void Close();
+}

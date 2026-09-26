@@ -1,3 +1,35 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b2d55b1566880b42be9d78d14a42c01c16166f795fcc67d67e953402980492b8
-size 527
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class InputControl : MonoBehaviour
+{
+
+
+    public float mouseX;
+    public float mouseY;
+
+    private void Awake()
+    {
+        
+    }
+
+    private void FixedUpdate()
+    {
+        float delta = Time.fixedDeltaTime;
+
+       
+    }
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
