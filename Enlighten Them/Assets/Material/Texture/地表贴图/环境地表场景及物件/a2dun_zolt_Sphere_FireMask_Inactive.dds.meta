@@ -1,3 +1,21 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:907e71725aa9cf2358c559e97c7c302aa54a36d78e04315d94060c07601285f6
-size 424
+fileFormatVersion: 2
+guid: 5da3dd66a184e50438773c30fdd3d91d
+IHVImageFormatImporter:
+  externalObjects: {}
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  isReadable: 0
+  sRGBTexture: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  ignoreMipmapLimit: 0
+  mipmapLimitGroupName: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

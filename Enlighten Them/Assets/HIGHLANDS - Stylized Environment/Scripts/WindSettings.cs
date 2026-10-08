@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:60de1d79bc360c2cecfdb64ffb7cf70ee75575e838d062a3cc7d3e6590e54622
-size 671
+using UnityEngine;
+
+namespace Highlands
+{
+    [ExecuteInEditMode]
+
+    public class WindSettings : MonoBehaviour
+    {
+        //Wind variables
+        [SerializeField] [Range(0.0F, 5.0F)] private float force = 1.0f;
+        [SerializeField] [Range(0.0F, 5.0F)] private float speed = 1.0f;
+        [SerializeField] [Range(0.0F, 5.0F)] private float wavesScale = 1.0f;
+
+        void Update()
+        {
+            //Set wind settings
+            Shader.SetGlobalFloat("RAYGlobalWindForce", force);
+            Shader.SetGlobalFloat("RAYGlobalWindSpeed", speed);
+            Shader.SetGlobalFloat("RAYGlobalWavesScale", wavesScale);
+        }
+    }
+}
