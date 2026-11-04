@@ -1,0 +1,34 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-WELKIN" at "2026-11-02T03:52:33.4034769Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 8464, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              d845442e55544a37af49de3f298605e7
+  Correlation Id:          72ff59c2fe4cb869328f89a63520de1e
+  External correlation Id: 5005443887275654780
+  Machine Id:              gr2X1aKbais1ASeoQSklRdPc22I=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-WELKIN" (connect: 0.00s, validation: 0.01s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-WELKIN-notifications" at "2026-11-02T03:52:33.4425865Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully updated license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f3 (96770f904ca7) revision 9860879'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 64892 MB
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Serial number assigned to: "2476062327637-UnityPersXXXX"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+[Licensing::Client] Successfully resolved entitlement details
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.62f3\Editor\Unity.exe
+-batchmode
+-nographics
+-quit
+-projectPath
+F:\Unity_project\Enlighten-Them\Enlighten
+Them
+-logFile
+F:\Unity_project\Enlighten-Them\Enlighten
+Them\Logs\CodexEnemyCompile.log
+Couldn't set project path to: F:/Unity_project/Enlighten-Them/Enlighten Them/F:/Unity_project/Enlighten-Them/Enlighten
+Exiting without the bug reporter. Application will terminate with return code 1

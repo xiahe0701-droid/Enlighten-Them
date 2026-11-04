@@ -61,24 +61,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\HIGHLANDS - Stylized Environment\Scripts\PlayerInteractions.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyLightSensor.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyState.cs" />
     <Compile Include="Assets\Scripts\Interactions\GeneraterInteractable.cs" />
     <Compile Include="Assets\HIGHLANDS - Stylized Environment\Scripts\CloudMover.cs" />
     <Compile Include="Assets\Scripts\Puzzle\RepairPuzzleBase.cs" />
     <Compile Include="Assets\HIGHLANDS - Stylized Environment\Scripts\LightCulling.cs" />
     <Compile Include="Assets\HIGHLANDS - Stylized Environment\Scripts\AudioZoneControl.cs" />
     <Compile Include="Assets\Scripts\Puzzle\WirePuzzlePanel.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyLightSource.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyBubblePresenter.cs" />
     <Compile Include="Assets\HIGHLANDS - Stylized Environment\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Puzzle\WirePuzzleGenerator.cs" />
     <Compile Include="Assets\HIGHLANDS - Stylized Environment\Scripts\WindSettings.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyAIConfig.cs" />
     <Compile Include="Assets\HIGHLANDS - Stylized Environment\Scripts\Interactive.cs" />
     <Compile Include="Assets\HIGHLANDS - Stylized Environment\Scripts\SoundGroup.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyPerception.cs" />
     <Compile Include="Assets\Scripts\Puzzle\WireTileView.cs" />
     <Compile Include="Assets\Scripts\InputControl.cs" />
     <Compile Include="Assets\Scripts\Machines\DoorController.cs" />
     <Compile Include="Assets\Scripts\camera\CameraOcclusionFader.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInteractor.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyMotor.cs" />
     <Compile Include="Assets\Scripts\EnemyChaseAvoidance.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyBrain.cs" />
     <Compile Include="Assets\Scripts\camera\cameraFollow.cs" />
     <Compile Include="Assets\HIGHLANDS - Stylized Environment\Scripts\PhysicsObject.cs" />
   </ItemGroup>

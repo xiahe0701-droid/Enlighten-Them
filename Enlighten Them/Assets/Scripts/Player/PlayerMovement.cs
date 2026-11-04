@@ -44,14 +44,14 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
 
         movementInput = new Vector2(horizontal, vertical);
 
-        //// Prevent diagonal movement from being faster.
-        //if (movementInput.sqrMagnitude > 1f)
-        //    movementInput.Normalize();
+        // Prevent diagonal movement from being faster.
+        if (movementInput.sqrMagnitude > 1f)
+            movementInput.Normalize();
     }
 
     private void ApplyMovement()
