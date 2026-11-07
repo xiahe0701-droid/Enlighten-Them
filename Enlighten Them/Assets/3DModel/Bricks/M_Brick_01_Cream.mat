@@ -26,14 +26,14 @@ Material:
     m_Ints: []
     m_Floats:
     - _BevelWidth: 0.014
-    - _BrickHeight: 0.37
-    - _BrickWidth: 0.93
+    - _BrickHeight: 0.75
+    - _BrickWidth: 1.5
     - _CornerRadius: 0.016
     - _MortarWidth: 0.012
     - _ProjectionSharpness: 8
     - _RowOffset: 0.5
     - _Smoothness: 0.2
-    - _Variation: 0.06
+    - _Variation: 0.16
     m_Colors:
     - _BrickColor: {r: 1, g: 0.9935257, b: 0.9779874, a: 1}
     - _MortarColor: {r: 0.6, g: 0.56, b: 0.46, a: 1}
