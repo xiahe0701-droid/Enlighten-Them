@@ -25,15 +25,15 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _BrickWidth: 0.36
-    - _BrickHeight: 0.18
-    - _MortarWidth: 0.014
-    - _CornerRadius: 0.018
     - _BevelWidth: 0.014
-    - _Variation: 0.12
+    - _BrickHeight: 0.37
+    - _BrickWidth: 0.93
+    - _CornerRadius: 0.018
+    - _MortarWidth: 0.014
+    - _ProjectionSharpness: 8
     - _RowOffset: 0.5
     - _Smoothness: 0.18
-    - _ProjectionSharpness: 8
+    - _Variation: 0.12
     m_Colors:
     - _BrickColor: {r: 0.73, g: 0.34, b: 0.24, a: 1}
     - _MortarColor: {r: 0.82, g: 0.73, b: 0.61, a: 1}
