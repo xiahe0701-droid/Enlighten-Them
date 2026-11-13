@@ -5,11 +5,13 @@ public class EnemyLightSensor : MonoBehaviour
     public EnemyLightSource BestSource { get; private set; }
 
     private EnemyAIConfig config;
+    private EnemyBrain owner;
     private float scanTimer;
 
     public void Initialize(EnemyAIConfig aiConfig)
     {
         config = aiConfig;
+        owner = GetComponent<EnemyBrain>();
         scanTimer = 0f;
     }
 
@@ -37,7 +39,7 @@ public class EnemyLightSensor : MonoBehaviour
                 continue;
 
             float distance = Vector3.Distance(transform.position, source.Position);
-            if (distance > source.AttractionRadius)
+            if (!source.CanAttract(owner, distance))
                 continue;
 
             float score = source.Strength / (1f + distance);

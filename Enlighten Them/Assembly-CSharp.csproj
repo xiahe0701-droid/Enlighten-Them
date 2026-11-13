@@ -68,8 +68,10 @@
     <Compile Include="Assets\Scripts\Puzzle\RepairPuzzleBase.cs" />
     <Compile Include="Assets\HIGHLANDS - Stylized Environment\Scripts\LightCulling.cs" />
     <Compile Include="Assets\HIGHLANDS - Stylized Environment\Scripts\AudioZoneControl.cs" />
+    <Compile Include="Assets\Scripts\Machines\PoweredLampController.cs" />
     <Compile Include="Assets\Scripts\Puzzle\WirePuzzlePanel.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyLightSource.cs" />
+    <Compile Include="Assets\Scripts\Interactions\WorldPromptBillboard.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyBubblePresenter.cs" />
     <Compile Include="Assets\HIGHLANDS - Stylized Environment\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Puzzle\WirePuzzleGenerator.cs" />
@@ -82,6 +84,7 @@
     <Compile Include="Assets\Scripts\InputControl.cs" />
     <Compile Include="Assets\Scripts\Machines\DoorController.cs" />
     <Compile Include="Assets\Scripts\camera\CameraOcclusionFader.cs" />
+    <Compile Include="Assets\Scripts\Machines\ElectricalSwitchFeedback.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInteractor.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyMotor.cs" />

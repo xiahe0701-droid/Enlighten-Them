@@ -5,6 +5,8 @@ public class EnemyPerception : MonoBehaviour
     [SerializeField] private Transform player;
     [SerializeField] private Transform sightOrigin;
 
+    private const float PlayerLookupInterval = 0.5f;
+
     public Transform Player => player;
     public bool CanSeePlayer { get; private set; }
     public float Awareness { get; private set; }
@@ -12,19 +14,32 @@ public class EnemyPerception : MonoBehaviour
     public Vector3 LastSeenPosition { get; private set; }
 
     private EnemyAIConfig config;
+    private float playerLookupTimer;
 
     public void Initialize(EnemyAIConfig aiConfig)
     {
         config = aiConfig;
+        ResolvePlayerIfMissing();
     }
 
     public void SetPlayer(Transform target)
     {
         player = target;
+        playerLookupTimer = 0f;
     }
 
     public void Tick(float deltaTime)
     {
+        if (player == null)
+        {
+            playerLookupTimer -= deltaTime;
+            if (playerLookupTimer <= 0f)
+            {
+                ResolvePlayerIfMissing();
+                playerLookupTimer = PlayerLookupInterval;
+            }
+        }
+
         if (config == null || player == null)
         {
             CanSeePlayer = false;
@@ -56,6 +71,16 @@ public class EnemyPerception : MonoBehaviour
     public void ClearLastSeenPosition()
     {
         HasLastSeenPosition = false;
+    }
+
+    private void ResolvePlayerIfMissing()
+    {
+        if (player != null)
+            return;
+
+        PlayerMovement playerMovement = FindObjectOfType<PlayerMovement>();
+        if (playerMovement != null)
+            player = playerMovement.transform;
     }
 
     private bool EvaluatePlayerVisibility()

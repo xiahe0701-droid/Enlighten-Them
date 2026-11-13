@@ -218,6 +218,7 @@ public class EnemyBrain : MonoBehaviour
             return false;
 
         if (interruptingChase &&
+            !candidate.IsExplicitTarget(this) &&
             candidate.Strength < config.chaseInterruptLightStrength)
         {
             return false;
