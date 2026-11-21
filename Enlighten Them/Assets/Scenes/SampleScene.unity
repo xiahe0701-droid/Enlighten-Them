@@ -29762,6 +29762,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MOSS_chase
       objectReference: {fileID: 0}
+    - target: {fileID: 4219041231295106434, guid: 42effe758ff769648a57864825afea6d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5874154464450931500, guid: 42effe758ff769648a57864825afea6d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.4
